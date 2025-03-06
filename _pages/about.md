@@ -11,4 +11,4 @@ Hello! I am Yi Wang, a PhD student in robotics at the University of New Hampshir
 
 Recent Posts
 ======
-Bidirectional Lazy Informed Trees (BLIT*), Proceeding of ICRA 2025, 19–23 May, Atlanta, USA.
+Bidirectional Lazy Informed Trees (BLIT*), Proceeding of [ICRA 2025](https://2025.ieee-icra.org/), 19–23 May, Atlanta, USA.
