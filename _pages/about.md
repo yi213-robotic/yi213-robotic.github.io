@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Greeting! I am Yi Wang, a robotic researcher (PHD) student at UNH. My research interest is about algorithmic robotic motion planning, bidirectional heuristic search, optimal controller, ect.
+Greeting! I am Yi Wang, a robotic researcher (PHD) student at UNH. My research interest is about algorithmic robotic motion planning, bidirectional heuristic search, optimal controller, ect. I am currently collabariting with Professor Oren Salzman and Dr. Eyal Weiss at Tchnion.
 
 Recent Posts
 ======
