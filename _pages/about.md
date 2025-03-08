@@ -21,4 +21,4 @@ Bidirectional Lazy Informed Trees (BLIT*), Proceeding of [ICRA 2025](https://202
 
 Open soruce contributions
 ======
-Planning to publish BLIT* to Open Motion Planning Library ([OMPL](https://ompl.kavrakilab.org/)) soon!
+Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
