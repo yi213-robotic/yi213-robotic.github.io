@@ -22,3 +22,9 @@ Bidirectional Lazy Informed Trees (BLIT*), Proceeding of [ICRA 2025](https://202
 Open soruce contributions
 ======
 Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
+
+My planners can be used in different platform:
+=====
+![Illustration of combining vision and language modalities](/images/ugv.png){: .align-right width="400px"}
+![Illustration of combining vision and language modalities](/images/usv.png){: .align-right width="400px"}
+![Illustration of combining vision and language modalities](/images/uav.png){: .align-right width="400px"}
