@@ -11,14 +11,14 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching and Research experience"
-    url: /teaching/    
+  # - title: "Teaching and Research experience"
+  #   url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Blog Posts"
+  #   url: /year-archive/
     
   - title: "CV"
     url: /files/Curriculum_Vitae.pdf
