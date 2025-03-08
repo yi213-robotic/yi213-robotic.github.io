@@ -23,7 +23,7 @@ Open soruce contributions
 ======
 Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
 
-My planners can be used in different platform:
+Motion planners can be ultilized as follows:
 =====
 ![Illustration of combining vision and language modalities](/images/ugv.png){: .align-right width="230px"} 
 ![Illustration of combining vision and language modalities](/images/usv.png){: .align-right width="230px"}
