@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Yi's motion planning world"
+title: "Welcome to Yi's motion planning world!"
 author_profile: true
 redirect_from: 
   - /about/
