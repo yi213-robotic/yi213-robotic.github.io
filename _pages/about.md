@@ -25,6 +25,6 @@ Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.ka
 
 My planners can be used in different platform:
 =====
-![Illustration of combining vision and language modalities](/images/ugv.png){: .align-right width="250px"} 
-![Illustration of combining vision and language modalities](/images/usv.png){: .align-right width="250px"}
-![Illustration of combining vision and language modalities](/images/uav.png){: .align-right width="250px"}
+![Illustration of combining vision and language modalities](/images/ugv.png){: .align-right width="230px"} 
+![Illustration of combining vision and language modalities](/images/usv.png){: .align-right width="230px"}
+![Illustration of combining vision and language modalities](/images/uav.png){: .align-right width="230px"}
