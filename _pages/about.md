@@ -23,3 +23,6 @@ Open soruce contributions
 ======
 Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
 
+Highlights of My Work
+======
+
