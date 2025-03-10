@@ -25,11 +25,11 @@ Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.ka
 
 Highlights of My Work
 ======
-Bidrectional Lazy Informed Trees (BLIT*):
+(1) Bidrectional Lazy Informed Trees (BLIT*):
 <img width="1038" alt="Screenshot 2025-03-10 at 2 44 16 PM" src="https://github.com/user-attachments/assets/4877395f-98f2-4f09-bd78-3afe1f76981d" />
 Illustration of BLIT* and other current state of the art.
 
-Amid dynamic obstacles by BIT*:
+(2) Amid dynamic obstacles by BIT*:
 
 https://user-images.githubusercontent.com/54214597/205184323-f84ecbba-9633-4d92-8537-b9d42c1889b0.mp4
 
