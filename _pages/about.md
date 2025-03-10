@@ -25,4 +25,13 @@ Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.ka
 
 Highlights of My Work
 ======
+Bidrectional Lazy Informed Trees
+
+
+Amid dynamic obstacles by BIT*
+https://user-images.githubusercontent.com/54214597/205184323-f84ecbba-9633-4d92-8537-b9d42c1889b0.mp4
+
+
+
+
 
