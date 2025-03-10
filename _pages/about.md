@@ -27,6 +27,7 @@ Highlights of My Work
 ======
 (1) Bidrectional Lazy Informed Trees (BLIT*):
 <img width="1038" alt="Screenshot 2025-03-10 at 2 44 16 PM" src="https://github.com/user-attachments/assets/4877395f-98f2-4f09-bd78-3afe1f76981d" />
+
 Illustration of BLIT* and other current state of the art.
 
 (2) Amid dynamic obstacles by BIT*:
