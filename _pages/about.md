@@ -26,9 +26,8 @@ Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.ka
 Highlights of My Work
 ======
 (1) Bidrectional Lazy Informed Trees (BLIT*):
-<img width="1038" alt="Screenshot 2025-03-10 at 2 44 16 PM" src="https://github.com/user-attachments/assets/4877395f-98f2-4f09-bd78-3afe1f76981d" />
+<img width="1104" alt="Screenshot 2025-03-10 at 3 13 47 PM" src="https://github.com/user-attachments/assets/7134f03f-e8e3-4d7e-8c77-be5a06cf4521" />
 
-Illustrations of BLIT* and other current state of the art algorithms.
 
 
 
