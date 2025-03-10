@@ -32,7 +32,10 @@ Illustration of BLIT* and other current state of the art.
 
 (2) Amid dynamic obstacles by BIT*:
 
-[videos](https://user-images.githubusercontent.com/54214597/205184323-f84ecbba-9633-4d92-8537-b9d42c1889b0.mp4)
+
+
+
+https://user-images.githubusercontent.com/54214597/205184323-f84ecbba-9633-4d92-8537-b9d42c1889b0.mp4
 
 
 
