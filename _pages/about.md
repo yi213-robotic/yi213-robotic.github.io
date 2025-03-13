@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration of combining vision and language modalities](/images/funny.png){: .align-right width="400px"}
+![Illustration of combining vision and language modalities](/images/fun.png){: .align-right width="400px"}
 
 Hello! I am Yi Wang, a PhD student in robotics at the University of New Hampshire (UNH). 
 
