@@ -1,1 +1,44 @@
+/* ICRA 2025 Dark Theme SCSS */
 
+/* Color Palette */
+$primary-color: #4a219c;
+$secondary-color: #42229f;
+$accent-color: #3e209c;
+$background-color: #47239c;
+$text-color: #ffffff;
+
+/* Body Styling */
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+}
+
+/* Buttons */
+.button {
+  background-color: $accent-color;
+  color: $text-color;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+}
+
+/* Links */
+a {
+  color: $primary-color;
+  text-decoration: none;
+  &:hover {
+    color: lighten($primary-color, 10%);
+  }
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: $secondary-color;
+  text-shadow: 0 0 10px lighten($secondary-color, 10%);
+}
