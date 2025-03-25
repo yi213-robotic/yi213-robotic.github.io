@@ -11,7 +11,7 @@ redirect_from:
 
 Hello! I am Yi Wang, a PhD student in robotics at the University of New Hampshire (UNH). 
 
-I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work explores open questions in motion planning, with a particular interest in bidirectional heuristic search. 
+I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. 
 
 My research centers on algorithmic robot motion planning for kinodynamic system, bidirectional heuristic search, and optimal controllers. I’m passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications.
 
