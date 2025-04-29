@@ -34,6 +34,8 @@ Highlights of My Work
 <img width="1104" alt="Screenshot 2025-03-10 at 3 13 47 PM" src="https://github.com/user-attachments/assets/7134f03f-e8e3-4d7e-8c77-be5a06cf4521" />
 
 (2) Meet-in-the-middle with Early and Efficient Termination (MEET) 
+<img width="1082" alt="MEET" src="https://github.com/user-attachments/assets/7ade9086-7427-4a5b-8b01-bd5505e06581" />
+
 
 
 
