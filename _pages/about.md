@@ -22,6 +22,8 @@ Recent Posts
 ======
 Bidirectional Lazy Informed Trees (BLIT*), Proceeding of [ICRA 2025](https://2025.ieee-icra.org/), 19–23 May, Atlanta, USA.
 
+Meet-in-the-middle with Early and Efficient Termination (MEET), Proceeding of [IJCAI](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
+
 Open soruce contributions
 ======
 Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
@@ -30,6 +32,8 @@ Highlights of My Work
 ======
 (1) Bidrectional Lazy Informed Trees (BLIT*):
 <img width="1104" alt="Screenshot 2025-03-10 at 3 13 47 PM" src="https://github.com/user-attachments/assets/7134f03f-e8e3-4d7e-8c77-be5a06cf4521" />
+
+(2) Meet-in-the-middle with Early and Efficient Termination (MEET) 
 
 
 
