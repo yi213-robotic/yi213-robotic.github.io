@@ -22,7 +22,7 @@ Recent Posts
 ======
 Bidirectional Lazy Informed Trees (BLIT*), Proceeding of [ICRA 2025](https://2025.ieee-icra.org/), 19–23 May, Atlanta, USA.
 
-Meet-in-the-middle with Early and Efficient Termination (MEET), Proceeding of [IJCAI](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
+Meet-in-the-middle with Early and Efficient Termination (MEET), Proceeding of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
 
 Open soruce contributions
 ======
