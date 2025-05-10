@@ -24,6 +24,8 @@ Bidirectional Lazy Informed Trees (BLIT*), Proceeding of [ICRA 2025](https://202
 
 Meet-in-the-middle with Early and Efficient Termination (MEET), Proceeding of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
 
+EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. IEEE/ASME Transactions on Mechatronics ([TMECH](http://www.ieee-asme-mechatronics.info/focus-sections/)) 2025.
+
 Open soruce contributions
 ======
 Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
