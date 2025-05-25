@@ -38,7 +38,7 @@ Highlights of My Work
 (2) Meet-in-the-middle with Early and Efficient Termination (MEET) 
 <img width="1082" alt="MEET" src="https://github.com/user-attachments/assets/7ade9086-7427-4a5b-8b01-bd5505e06581" />
 
-(3)
+(3) EMPC-Based Flight Control and Collision-Free Path Planning.
 [Experimental vedio](https://www.youtube.com/watch?v=VFPGz-rjjQM)
 
 
