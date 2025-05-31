@@ -39,6 +39,9 @@ Highlights of My Work
 
 [Oral presentation](https://www.youtube.com/watch?v=9bctMp6n3ss&t=9s) at ICRA 2025, May 20, Atlanta, GA, USA.
 
+Poster Presentation:
+[BLIT_poster.pdf](https://github.com/user-attachments/files/20534131/BLIT_poster.pdf)
+
 (2) Meet-in-the-middle with Early and Efficient Termination (MEET) 
 <img width="1082" alt="MEET" src="https://github.com/user-attachments/assets/7ade9086-7427-4a5b-8b01-bd5505e06581" />
 
