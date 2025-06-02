@@ -28,7 +28,7 @@ EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with 
 
 Open soruce contributions
 ======
-We will release C++ implementation for comparison-version via [github](https://github.com/yi213-robotic/BLITstar) after mid-June. 
+We have released C++ implementation for comparison-version via [github](https://github.com/yi213-robotic/BLITstar). 
 
 Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
 
