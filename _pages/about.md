@@ -29,7 +29,7 @@ EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with 
 Honors and Awards
 ======
 Special IJCAI 2025 DC Travel Award,
-Awarded by the National Science Foundation (NSF) to selected U.S.-based Ph.D. students with accepted proceedings paper at IJCAI 2025.
+awarded by the National Science Foundation (NSF) to selected U.S.-based Ph.D. students with accepted proceedings paper at IJCAI 2025.
 
 Open soruce contributions
 ======
