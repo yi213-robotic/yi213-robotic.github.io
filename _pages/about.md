@@ -26,6 +26,11 @@ Meet-in-the-middle with Early and Efficient Termination (MEET), Proceeding of [I
 
 EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceeding of IEEE/ASME Transactions on Mechatronics ([TMECH](http://www.ieee-asme-mechatronics.info/focus-sections/)) 2025.
 
+Honors and Awards
+======
+Special IJCAI 2025 DC Travel Award:
+Awarded by the National Science Foundation (NSF) to selected U.S.-based Ph.D. students at IJCAI 2025.
+
 Open soruce contributions
 ======
 We have released C++ implementation for comparison-version via [github](https://github.com/yi213-robotic/BLITstar). 
