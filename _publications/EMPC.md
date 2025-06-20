@@ -20,4 +20,17 @@ citation: '@ARTICLE{11030654,
 '
 ---
 
-This paper introduces Bidirectional Lazy Informed Trees (BLIT*), the first algorithm to incorporate anytime incremental lazy bidirectional heuristic search (Bi-HS) into batch-wise sampling-based motion planning (Bw-SBMP). BLIT* operates on batches of informed states (states that can potentially improve the cost of the incumbent solution) structured as an implicit random geometric graph (RGG). The computational cost of collision detection is mitigated via {\em a new lazy edge-evaluation strategy} by focusing  on states near obstacles. Experimental results, especially in high dimensions, show that BLIT* outperforms existing Bw-SBMP planners by efficiently finding an initial solution and effectively improving the quality as more computational resources are available.
+In this article, a robust explicit model predictive control (EMPC) flight scheme is investigated for
+a quadrotor. MPC is widely recognized for its control effectiveness, but the computational complexity involved in
+solving online optimization problems, particularly when applied to fast systems, poses a significant challenge. To enable real-time MPC implementation on quadrotor systems,
+we propose a novel dual-layer control architecture integrating EMPC, strategically relocating the computationally
+intensive optimization process to offline computation. The
+outer loop computes reference roll and pitch angles, while
+the inner loop employs an EMPC framework to achieve
+fast attitude tracking considering state and actuator constraints. Moreover, integral sliding mode control (ISMC) is
+integrated to mitigate the effects of uncertainties, such as
+unbalanced payloads. The recursive feasibility is guaranteed for the proposed flight control method if the initial
+states are in the feasibility set, and the Lyapunov stability analysis is conducted. In addition, we develop a polynomial trajectory planning algorithm for the quadrotor in
+(3-D) space. We employ our previous result, the bidirectional guidance informed trees (BIGIT∗) algorithm, to obtain a sequence of collision-free waypoints, and utilize the
+minimum-snap technique to generate a smooth path. Finally, experimental results demonstrate the effectiveness of
+the proposed methods.
