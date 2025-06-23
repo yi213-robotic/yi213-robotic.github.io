@@ -20,7 +20,7 @@ I am currently collaborating with Professor [Oren Salzman](https://orensalzman.c
 
 Recent Posts
 ======
-Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://2025.ieee-icra.org/), 19–23 May, Atlanta, USA.
+Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA.
 
 Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
 
