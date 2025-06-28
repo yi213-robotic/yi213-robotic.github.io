@@ -24,7 +24,7 @@ Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ra
 
 Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
 
-EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceedings of IEEE/ASME Transactions on Mechatronics ([TMECH](https://ieeexplore.ieee.org/abstract/document/11030654)) 2025.
+EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceedings of IEEE/ASME Transactions on Mechatronics ([TMECH](https://ieeexplore.ieee.org/abstract/document/11030654)) 2025. [[pdf]](https://ieeexplore.ieee.org/abstract/document/11030654)
 
 Honors and Awards
 ======
@@ -55,7 +55,7 @@ Poster Presentation:
 (3) EMPC-Based Flight Control and Collision-Free Path Planning.
 <img width="896" alt="Screenshot 2025-05-25 at 3 34 50 PM" src="https://github.com/user-attachments/assets/cf024080-d304-4db4-b990-bd7af7f6c984" />
 
-An experimental demonstration video is [available here](https://www.youtube.com/watch?v=VFPGz-rjjQM), and the paper is [here](https://ieeexplore.ieee.org/abstract/document/11030654).
+An experimental demonstration video is [available here](https://www.youtube.com/watch?v=VFPGz-rjjQM).
 
 
 
