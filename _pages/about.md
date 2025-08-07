@@ -50,9 +50,9 @@ Poster Presentation:
 (2) Meet-in-the-middle with Early and Efficient Termination (MEET) 
 <img width="1082" alt="MEET" src="https://github.com/user-attachments/assets/7ade9086-7427-4a5b-8b01-bd5505e06581" />
 
-[Main-Track oral presentation](https://2025.ijcai.org/montreal-main-track-accepted-papers/), Aug 22, Montreal, Canada.
+[Main-Track oral presentation](https://2025.ijcai.org/montreal-main-track-accepted-papers/) at IJCAI 2025, Aug 22, Montreal, Canada.
 
-[Invited Oral Presentation (lightning talk) to the DC of IJCAI25](https://2025.ijcai.org/doctoral-consortium-program/) at IJCAI 2025, Aug 18, Montreal, Canada.
+[Lightning talk to the DC of IJCAI25](https://2025.ijcai.org/doctoral-consortium-program/) at IJCAI 2025, Aug 18, Montreal, Canada.
 
 (3) EMPC-Based Flight Control and Collision-Free Path Planning.
 <img width="896" alt="Screenshot 2025-05-25 at 3 34 50 PM" src="https://github.com/user-attachments/assets/cf024080-d304-4db4-b990-bd7af7f6c984" />
