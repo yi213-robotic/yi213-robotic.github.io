@@ -50,7 +50,7 @@ Poster Presentation:
 (2) Meet-in-the-middle with Early and Efficient Termination (MEET) 
 <img width="1082" alt="MEET" src="https://github.com/user-attachments/assets/7ade9086-7427-4a5b-8b01-bd5505e06581" />
 
-Main-Track oral presentation, Aug 22, Montreal, Canada.
+[Main-Track oral presentation](https://2025.ijcai.org/montreal-main-track-accepted-papers/), Aug 22, Montreal, Canada.
 
 [Invited Oral Presentation (lightning talk) to the DC of IJCAI25](https://2025.ijcai.org/doctoral-consortium-program/) at IJCAI 2025, Aug 18, Montreal, Canada.
 
