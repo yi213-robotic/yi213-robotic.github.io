@@ -30,7 +30,7 @@ Honors and Awards
 ======
 Special IJCAI 2025 Doctoral Consortium Travel Award, awarded by the National Science Foundation (NSF).
 
-Selected to present a lightning talk at the IJCAI 2025 Doctoral Consortium as one of six Ph.D. students with accepted papers in the conference proceedings.
+Selected to present a [lightning talk](https://2025.ijcai.org/doctoral-consortium-program/) at the IJCAI 2025 Doctoral Consortium as one of six Ph.D. students with accepted papers in the conference proceedings.
 
 Open soruce contributions
 ======
