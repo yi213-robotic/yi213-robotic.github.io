@@ -20,9 +20,9 @@ I am currently collaborating with Professor [Oren Salzman](https://orensalzman.c
 
 Recent Posts
 ======
-Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [pdf](https://ieeexplore.ieee.org/document/11128259)
+Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [[pdf]](https://ieeexplore.ieee.org/document/11128259)
 
-Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.
+Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.[[preprint]](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/1923.pdf)
 
 EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceedings of IEEE/ASME Transactions on Mechatronics ([TMECH](https://ieeexplore.ieee.org/abstract/document/11030654)) 2025. [[pdf]](https://ieeexplore.ieee.org/abstract/document/11030654)
 
