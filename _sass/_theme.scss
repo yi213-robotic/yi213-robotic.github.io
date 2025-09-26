@@ -1,0 +1,106 @@
+/* === Theme variables === */
+
+/* Base colors */
+$primary-purple: #47239c;
+$text-color: #ffffff;
+$text-body: #222222;
+
+/* Surfaces */
+$surface: #ffffff;
+$surface-alt: #f5f5f5;
+$surface-muted: #fafafa;
+
+/* Accents: teal (default) */
+$accent: #00A3A3;
+$accent-hover: darken($accent, 10%);
+$accent-visited: mix(#333, $accent, 30%);
+
+/* Accents: gold (for awards section only) */
+$accent-gold: #FFB300;
+$accent-gold-hover: darken($accent-gold, 8%);
+$accent-gold-visited: mix(#5c4a00, $accent-gold, 35%);
+
+/* Code */
+$code-bg: #222;
+$code-fg: #f2f2f2;
+
+/* Layout tokens */
+$radius: 14px;
+$shadow: 0 10px 24px rgba(0,0,0,.14);
+
+/* === Global CSS variables === */
+:root {
+  --bg: #{$primary-purple};
+  --text: #{$text-color};
+  --text-body: #{$text-body};
+
+  --surface: #{$surface};
+  --surface-alt: #{$surface-alt};
+  --surface-muted: #{$surface-muted};
+
+  --accent: #{$accent};
+  --accent-hover: #{$accent-hover};
+  --accent-visited: #{$accent-visited};
+
+  --accent-gold: #{$accent-gold};
+  --accent-gold-hover: #{$accent-gold-hover};
+  --accent-gold-visited: #{$accent-gold-visited};
+
+  --code-bg: #{$code-bg};
+  --code-fg: #{$code-fg};
+
+  --radius: #{$radius};
+  --shadow: #{$shadow};
+}
+
+/* === Base elements === */
+a {
+  color: var(--accent);
+  text-decoration: none;
+
+  &:hover { color: var(--accent-hover); }
+  &:visited { color: var(--accent-visited); }
+}
+
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+
+  &:hover { background: var(--accent-hover); }
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.6);
+
+  &:hover { border-color: #fff; }
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(0,0,0,.06);
+  padding: 1rem;
+}
+
+/* === Awards section (gold override) === */
+.awards {
+  .card h3,
+  a,
+  .tag.is-gold {
+    color: var(--accent-gold);
+  }
+
+  .btn {
+    background: var(--accent-gold);
+
+    &:hover { background: var(--accent-gold-hover); }
+  }
+}
