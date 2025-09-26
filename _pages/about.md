@@ -18,7 +18,7 @@ My research centers on algorithmic robot motion planning for kinodynamic system,
 I am currently collaborating with Professor [Oren Salzman](https://orensalzman.com/) and [Dr. Eyal Weiss](https://sites.google.com/view/eyal-weiss) at [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search—a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces.
 
 
-{% include hero-yi.html %}
+{% include yi.html %}
 
 {% include section-pubs-yi.html %}
 
