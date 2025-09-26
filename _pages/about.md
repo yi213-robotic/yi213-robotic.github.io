@@ -18,6 +18,9 @@ My research centers on algorithmic robot motion planning for kinodynamic system,
 I am currently collaborating with Professor [Oren Salzman](https://orensalzman.com/) and [Dr. Eyal Weiss](https://sites.google.com/view/eyal-weiss) at [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search—a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces.
 
 
+{% include hero-yi.html %}
+{% include section-pubs-yi.html %}
+
 Recent Posts
 ======
 Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [[pdf]](https://ieeexplore.ieee.org/document/11128259)
