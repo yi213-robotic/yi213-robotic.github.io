@@ -27,6 +27,7 @@ Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [
 EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceedings of IEEE/ASME Transactions on Mechatronics ([TMECH](https://ieeexplore.ieee.org/abstract/document/11030654)) 2025. [[pdf]](https://ieeexplore.ieee.org/abstract/document/11030654)
 
 Honors and Awards
+## <span class="gold-text">Honors & Awards</span>
 ======
 Special IJCAI 2025 Doctoral Consortium Travel Award, awarded by the National Science Foundation (NSF).
 
