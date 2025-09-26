@@ -1,106 +1,94 @@
-/* === Theme variables === */
+/* Purple + Teal (site-wide) + Gold (awards only) */
 
-/* Base colors */
-$primary-purple: #47239c;
-$text-color: #ffffff;
-$text-body: #222222;
-
-/* Surfaces */
-$surface: #ffffff;
-$surface-alt: #f5f5f5;
-$surface-muted: #fafafa;
-
-/* Accents: teal (default) */
-$accent: #00A3A3;
-$accent-hover: darken($accent, 10%);
-$accent-visited: mix(#333, $accent, 30%);
-
-/* Accents: gold (for awards section only) */
-$accent-gold: #FFB300;
-$accent-gold-hover: darken($accent-gold, 8%);
-$accent-gold-visited: mix(#5c4a00, $accent-gold, 35%);
-
-/* Code */
-$code-bg: #222;
-$code-fg: #f2f2f2;
-
-/* Layout tokens */
-$radius: 14px;
-$shadow: 0 10px 24px rgba(0,0,0,.14);
-
-/* === Global CSS variables === */
 :root {
-  --bg: #{$primary-purple};
-  --text: #{$text-color};
-  --text-body: #{$text-body};
+  --bg:#47239c;
+  --text:#ffffff;
+  --text-body:#222222;
 
-  --surface: #{$surface};
-  --surface-alt: #{$surface-alt};
-  --surface-muted: #{$surface-muted};
+  --surface:#ffffff;
+  --surface-alt:#f5f5f5;
+  --surface-muted:#fafafa;
 
-  --accent: #{$accent};
-  --accent-hover: #{$accent-hover};
-  --accent-visited: #{$accent-visited};
+  --accent:#00A3A3;
+  --accent-hover:#008f8f;
+  --accent-visited:#3c8f8f;
 
-  --accent-gold: #{$accent-gold};
-  --accent-gold-hover: #{$accent-gold-hover};
-  --accent-gold-visited: #{$accent-gold-visited};
+  --accent-gold:#FFB300;
+  --accent-gold-hover:#d89a00;
+  --accent-gold-visited:#7a6400;
 
-  --code-bg: #{$code-bg};
-  --code-fg: #{$code-fg};
+  --code-bg:#222;
+  --code-fg:#f2f2f2;
 
-  --radius: #{$radius};
-  --shadow: #{$shadow};
+  --radius:14px;
+  --shadow:0 10px 24px rgba(0,0,0,.14);
+  --space:clamp(14px,2.2vw,24px);
+  --space-lg:clamp(28px,4vw,56px);
+  --maxw:1100px;
 }
 
-/* === Base elements === */
-a {
-  color: var(--accent);
-  text-decoration: none;
+/* Global basics */
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";color:var(--text-body);background:var(--surface-muted)}
+a{color:var(--accent);text-decoration:none}
+a:hover{color:var(--accent-hover)}
+a:visited{color:var(--accent-visited)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
-  &:hover { color: var(--accent-hover); }
-  &:visited { color: var(--accent-visited); }
-}
+.container{width:min(100% - 2*var(--space),var(--maxw));margin-inline:auto}
 
-.btn {
-  display: inline-block;
-  background: var(--accent);
-  color: #fff;
-  padding: 10px 16px;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
+/* Hero (purple gradient) */
+.hero{background:linear-gradient(135deg,var(--bg) 0%,#2e1673 100%);color:var(--text);padding:var(--space-lg) 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:var(--space);margin-bottom:var(--space)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.2px}
+.brand .dot{width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(255,255,255,.18)}
+.nav a{color:var(--text);opacity:.9}
+.nav a:hover{opacity:1}
+.nav .links{display:flex;gap:18px;flex-wrap:wrap}
 
-  &:hover { background: var(--accent-hover); }
-}
+.hero-main{display:grid;grid-template-columns:1.2fr .8fr;gap:var(--space-lg);align-items:center}
+@media (max-width:860px){.hero-main{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(28px,4.6vw,44px);margin:0 0 10px}
+.hero p.lead{margin:0 0 var(--space);opacity:.95;line-height:1.6}
 
-.btn-ghost {
-  background: transparent;
-  color: #fff;
-  border: 1px solid rgba(255,255,255,.6);
+.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;border-radius:var(--radius);box-shadow:var(--shadow);transform:translateY(0);transition:background .15s ease,transform .05s ease}
+.btn:hover{background:var(--accent-hover)}
+.btn:active{transform:translateY(1px)}
+.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}
+.btn-ghost:hover{border-color:#fff}
 
-  &:hover { border-color: #fff; }
-}
+.hero-illus{aspect-ratio:4/3;background:
+  radial-gradient(circle at 20% 20%,rgba(255,255,255,.22),rgba(255,255,255,.08) 35%,transparent 60%),
+  linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.06));
+  border-radius:calc(var(--radius)*1.4);border:1px solid rgba(255,255,255,.25)}
 
-/* Cards */
-.card {
-  background: var(--surface);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  border: 1px solid rgba(0,0,0,.06);
-  padding: 1rem;
-}
+/* Sections + grid */
+.section{padding:var(--space-lg) 0}
+.section.alt{background:var(--surface-alt)}
+.section h2{margin:0 0 var(--space);font-size:clamp(22px,3.2vw,30px)}
 
-/* === Awards section (gold override) === */
-.awards {
-  .card h3,
-  a,
-  .tag.is-gold {
-    color: var(--accent-gold);
-  }
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space)}
+@media (max-width:1024px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:680px){.grid{grid-template-columns:1fr}}
 
-  .btn {
-    background: var(--accent-gold);
+.card{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid rgba(0,0,0,.06);padding:clamp(14px,2vw,20px);display:flex;flex-direction:column;gap:10px}
+.card h3{margin:0;font-size:18px}
+.card p{margin:0;opacity:.9}
+.card .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.tag{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:rgba(0,0,0,.06)}
 
-    &:hover { background: var(--accent-gold-hover); }
-  }
-}
+/* Awards (gold emphasis inside this scope only) */
+.awards .card h3,
+.awards a,
+.awards .tag.is-gold{color:var(--accent-gold)}
+.awards .btn{background:var(--accent-gold)}
+.awards .btn:hover{background:var(--accent-gold-hover)}
+.awards .medal{width:42px;height:42px;border-radius:50%;
+  background:linear-gradient(145deg,#ffd455,var(--accent-gold));
+  box-shadow:inset 0 2px 4px rgba(0,0,0,.15),0 6px 16px rgba(0,0,0,.12);
+  border:1px solid rgba(0,0,0,.08)}
+
+/* Footer */
+.site-footer{padding:var(--space-lg) 0;color:#666}
+.site-footer a{color:inherit;text-decoration:underline;text-underline-offset:2px}
