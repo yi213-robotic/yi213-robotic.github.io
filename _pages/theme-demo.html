@@ -1,0 +1,155 @@
+---
+title: Theme Demo (Purple + Teal, Gold for Awards)
+permalink: /theme-demo/
+layout: default
+---
+
+<!-- Purple + Teal (site-wide) + Gold (awards only) Demo -->
+<style>
+  :root{
+    --bg:#47239c;
+    --text:#ffffff;
+    --text-body:#222222;
+
+    --surface:#ffffff;
+    --surface-alt:#f5f5f5;
+    --surface-muted:#fafafa;
+
+    --accent:#00A3A3;           /* teal */
+    --accent-hover:#008f8f;
+    --accent-visited:#3c8f8f;
+
+    --accent-gold:#FFB300;      /* gold */
+    --accent-gold-hover:#d89a00;
+    --accent-gold-visited:#7a6400;
+
+    --code-bg:#222;
+    --code-fg:#f2f2f2;
+
+    --radius:14px;
+    --shadow:0 10px 24px rgba(0,0,0,.14);
+    --space:clamp(14px,2.2vw,24px);
+    --space-lg:clamp(28px,4vw,56px);
+    --maxw:1100px;
+  }
+  *,*:before,*:after{box-sizing:border-box}
+  .td-wrap{width:min(100% - 2*var(--space),var(--maxw));margin:0 auto}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{color:var(--accent-hover)}
+  a:visited{color:var(--accent-visited)}
+
+  /* Hero */
+  .td-hero{background:linear-gradient(135deg,var(--bg) 0%,#2e1673 100%);
+    color:var(--text);padding:var(--space-lg) 0;border-radius:16px}
+  .td-nav{display:flex;align-items:center;justify-content:space-between;gap:var(--space);margin-bottom:var(--space)}
+  .td-brand{display:flex;align-items:center;gap:10px;font-weight:700}
+  .td-dot{width:12px;height:12px;border-radius:50%;background:var(--accent)}
+  .td-links{display:flex;gap:18px;flex-wrap:wrap}
+  .td-links a{color:var(--text);opacity:.9}
+  .td-links a:hover{opacity:1}
+
+  .td-hero-main{display:grid;grid-template-columns:1.2fr .8fr;gap:var(--space-lg);align-items:center}
+  @media (max-width:860px){.td-hero-main{grid-template-columns:1fr}}
+  .td-hero h1{font-size:clamp(28px,4.6vw,44px);margin:0 0 10px}
+  .td-lead{margin:0 0 var(--space);opacity:.95;line-height:1.6}
+  .td-btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;
+    border-radius:var(--radius);box-shadow:var(--shadow)}
+  .td-btn:hover{background:var(--accent-hover)}
+  .td-btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6)}
+  .td-btn-ghost:hover{border-color:#fff}
+  .td-illus{aspect-ratio:4/3;background:linear-gradient(135deg,rgba(255,255,255,.18),rgba(255,255,255,.06));
+    border-radius:calc(var(--radius)*1.4);border:1px solid rgba(255,255,255,.25)}
+
+  /* Sections + grid */
+  .td-section{padding:var(--space-lg) 0}
+  .td-section.alt{background:var(--surface-alt);border-radius:16px}
+  .td-h2{margin:0 0 var(--space);font-size:clamp(22px,3.2vw,30px)}
+  .td-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space)}
+  @media (max-width:1024px){.td-grid{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:680px){.td-grid{grid-template-columns:1fr}}
+
+  .td-card{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);
+    border:1px solid rgba(0,0,0,.06);padding:clamp(14px,2vw,20px)}
+  .td-card h3{margin:0;font-size:18px}
+  .td-card p{margin:0;opacity:.9}
+  .td-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+  .td-tag{font-size:12px;padding:6px 10px;border-radius:999px;background:rgba(0,0,0,.06)}
+
+  /* Awards section = gold */
+  .td-awards .td-card h3,
+  .td-awards a,
+  .td-awards .td-tag.is-gold{color:var(--accent-gold)}
+  .td-awards .td-btn{background:var(--accent-gold)}
+  .td-awards .td-btn:hover{background:var(--accent-gold-hover)}
+  .td-medal{width:42px;height:42px;border-radius:50%;
+    background:linear-gradient(145deg,#ffd455,var(--accent-gold))}
+</style>
+
+<div class="td-wrap">
+  <section class="td-hero">
+    <nav class="td-nav">
+      <div class="td-brand"><span class="td-dot"></span> Yi Wang · Robotics</div>
+      <div class="td-links">
+        <a href="#pubs">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="/cv.pdf">CV</a>
+      </div>
+    </nav>
+    <div class="td-hero-main">
+      <div>
+        <h1>Optimal Motion Planning · Bidirectional Heuristic Search</h1>
+        <p class="td-lead">Purple + teal site-wide, gold only for awards. Same layout, just new color scheme.</p>
+        <div class="td-row">
+          <a class="td-btn" href="#pubs">View Publications</a>
+          <a class="td-btn td-btn-ghost" href="/cv.pdf">Download CV</a>
+        </div>
+      </div>
+      <div class="td-illus"></div>
+    </div>
+  </section>
+
+  <section class="td-section alt" id="pubs">
+    <h2 class="td-h2">Selected Work</h2>
+    <div class="td-grid">
+      <article class="td-card">
+        <h3>BLIT*</h3>
+        <p>Faster convergence in kinodynamic planning.</p>
+        <div class="td-row"><a class="td-btn" href="#">Paper</a></div>
+      </article>
+      <article class="td-card">
+        <h3>MEET</h3>
+        <p>Model-based efficient exploration tree.</p>
+        <div class="td-row"><a class="td-btn" href="#">Paper</a></div>
+      </article>
+      <article class="td-card">
+        <h3>EMPC</h3>
+        <p>Fast MPC with safety constraints.</p>
+        <div class="td-row"><a class="td-btn" href="#">Paper</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="td-section td-awards" id="awards">
+    <h2 class="td-h2">Awards</h2>
+    <div class="td-grid">
+      <article class="td-card">
+        <div class="td-row" style="align-items:center;gap:12px">
+          <div class="td-medal"></div>
+          <h3>Best Paper Candidate</h3>
+        </div>
+        <p>ICRA 2025 · BLIT*</p>
+        <div class="td-row"><a class="td-btn" href="#">Details</a>
+          <span class="td-tag is-gold">Top-tier</span></div>
+      </article>
+      <article class="td-card">
+        <div class="td-row" style="align-items:center;gap:12px">
+          <div class="td-medal"></div>
+          <h3>Outstanding Presentation</h3>
+        </div>
+        <p>IJCAI 2025 · MEET</p>
+        <div class="td-row"><a class="td-btn" href="#">Talk</a>
+          <span class="td-tag is-gold">Oral</span></div>
+      </article>
+    </div>
+  </section>
+</div>
