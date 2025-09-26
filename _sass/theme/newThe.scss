@@ -1,1 +1,59 @@
+/* === 新增或覆盖的变量 === */
+
+/* 主紫色保持不变，如果你想更学术感，可以改为 #5A2D82 */
+$primary-purple: #47239c;
+
+/* 中性浅色（减少“全紫”感） */
+$surface        : #ffffff;  // 卡片底
+$surface-alt    : #f5f5f5;  // 分区底
+$surface-muted  : #fafafa;  // 大块留白底
+
+/* 方案 A：紫 + 青（默认） */
+$accent-teal         : #00A3A3;
+$accent-teal-hover   : darken($accent-teal, 10%);
+$accent-teal-visited : mix(#333, $accent-teal, 30%);
+
+/* 方案 B：紫 + 金 */
+$accent-gold         : #FFB300;
+$accent-gold-hover   : darken($accent-gold, 8%);
+$accent-gold-visited : mix(#5c4a00, $accent-gold, 35%);
+
+/* 默认继续用青色方案 */
+$link       : $accent-teal;
+$link-dark  : $accent-teal-hover;
+$link-light : $accent-teal-visited;
+
+/* === 覆盖 CSS 变量 === */
+:root {
+  --global-base-color            : #{$primary-purple};
+  --global-bg-color              : #{$primary-purple};
+  --global-border-color          : #{$background-light};
+  --global-text-color            : #{$text};
+  --global-text-color-light      : #ccccd6;
+
+  /* 链接/按钮：默认青 */
+  --global-link-color            : #{$accent-teal};
+  --global-link-color-hover      : #{$accent-teal-hover};
+  --global-link-color-visited    : #{$accent-teal-visited};
+
+  /* 代码区可读性增强 */
+  --global-code-background-color : #222222;
+  --global-code-text-color       : #f2f2f2;
+
+  /* 中性卡片/分区底色 */
+  --surface                      : #{$surface};
+  --surface-alt                  : #{$surface-alt};
+  --surface-muted                : #{$surface-muted};
+
+  --global-masthead-link-color        : #{$text};
+  --global-masthead-link-color-hover  : #{$background-light};
+  --global-thead-color                : #{$background-lighter};
+}
+
+/* === 切换到金色方案时使用 === */
+body[data-accent="gold"] {
+  --global-link-color         : #{$accent-gold};
+  --global-link-color-hover   : #{$accent-gold-hover};
+  --global-link-color-visited : #{$accent-gold-visited};
+}
 
