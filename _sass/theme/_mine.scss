@@ -1,16 +1,30 @@
 /* Color Palette */
-$gray                       : #4a219c;
+$gray                       : #5A2D82;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
+
+/* Accents */
+$accent          : #00A3A3;   // teal (default link/button color)
+$accent-hover    : darken($accent, 10%);
+$accent-visited  : mix(#333, $accent, 30%);
+
+$accent-gold          : #FFB300;
+$accent-gold-hover    : darken($accent-gold, 8%);
+$accent-gold-visited  : mix(#5c4a00, $accent-gold, 35%);
+
 
 $background                 : #5A2D82;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #ffffff;
-$link                       : #0ea1c5;
+/*$link                       : #0ea1c5;
 $link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);*/
+$link       : $accent;
+$link-dark  : $accent-hover;
+$link-light : $accent-visited;
+
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -35,7 +49,8 @@ $sidebar-screen-min-width   : 1024px;
     --global-bg-color                   : #{$background};
     --global-border-color               : #{$background-light};
     --global-code-background-color      : #222222;
-    --global-code-text-color            : #{$darker-gray};
+    /*--global-code-text-color            : #{$darker-gray};*/
+    --global-code-text-color            : ##f2f2f2;
     --global-fig-caption-color          : #{$dark-gray};
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
@@ -45,4 +60,19 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$background-lighter};
+}
+
+/* Awards section uses gold instead of teal */
+.awards {
+  a,
+  .btn,
+  h3,
+  .tag.is-gold {
+    color: $accent-gold;
+  }
+
+  .btn {
+    background: $accent-gold;
+    &:hover { background: $accent-gold-hover; }
+  }
 }
