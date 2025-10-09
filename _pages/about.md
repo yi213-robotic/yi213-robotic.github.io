@@ -36,7 +36,7 @@ Open soruce contributions
 ======
 We have released C++ implementation of BLIT* for comparison-version via [github](https://github.com/yi213-robotic/BLITstar). 
 
-Planning to publish BLIT* to Open Motion Planning Library [OMPL](https://ompl.kavrakilab.org/) soon!
+BLIT* is already merged into Open Motion Planning Library [OMPL](https://github.com/ompl/ompl).
 
 Highlights of My Work
 ======
