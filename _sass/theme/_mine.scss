@@ -6,7 +6,7 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
 /* Accents */
-$accent          : #5A2D82;   // teal (default link/button color)
+$accent          : #301C97;   // teal (default link/button color)
 $accent-hover    : darken($accent, 10%);
 $accent-visited  : mix(#333, $accent, 30%);
 
@@ -15,7 +15,7 @@ $accent-gold-hover    : darken($accent-gold, 8%);
 $accent-gold-visited  : mix(#5c4a00, $accent-gold, 35%);
 
 
-$background                 : #F7F7FF;
+$background                 : #E5E5F5;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #111111;
