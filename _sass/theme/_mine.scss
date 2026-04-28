@@ -1,31 +1,54 @@
 @import "theme";
+
+/* ==========================================================
+   Beamer-slide style theme
+   Light lavender/blue gradient background + blue-purple accent
+   ========================================================== */
+
+/* Main slide-style colors */
+$slide-bg-top        : #CCCCEC;
+$slide-bg-mid        : #E5E5F5;
+$slide-bg-light      : #F7F7FF;
+$slide-bg-white      : #FFFFFF;
+
+$slide-accent        : #301C97;
+$slide-text          : #111111;
+$slide-muted-text    : #555555;
+
+/* Background */
+$background          : $slide-bg-light;
+$background-light    : $slide-bg-mid;
+$background-lighter  : $slide-bg-white;
+
+/* Beamer-like gradient */
+$background-gradient: linear-gradient(
+  180deg,
+  #{$slide-bg-top} 0%,
+  #{$slide-bg-mid} 18%,
+  #{$slide-bg-light} 45%,
+  #{$slide-bg-white} 100%
+);
+
 /* Color Palette */
-$gray                       : #F7F7FF;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
+$gray                       : $slide-bg-light;
+$dark-gray                  : mix(#000, $gray, 55%);
+$darker-gray                : mix(#000, $gray, 70%);
 $light-gray                 : mix(#fff, $gray, 50%);
 
 /* Accents */
-$accent          : #301C97;   // teal (default link/button color)
-$accent-hover    : darken($accent, 10%);
-$accent-visited  : mix(#333, $accent, 30%);
+$accent                     : $slide-accent;
+$accent-hover               : darken($accent, 10%);
+$accent-visited             : mix(#333, $accent, 30%);
 
-$accent-gold          : #FFB300;
-$accent-gold-hover    : darken($accent-gold, 8%);
-$accent-gold-visited  : mix(#5c4a00, $accent-gold, 35%);
+$accent-gold                : #FFB300;
+$accent-gold-hover          : darken($accent-gold, 8%);
+$accent-gold-visited        : mix(#5c4a00, $accent-gold, 35%);
 
-
-$background                 : #E5E5F5;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #111111;
-/*$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);*/
-$link       : $accent;
-$link-dark  : $accent-hover;
-$link-light : $accent-visited;
-
+/* Text and links */
+$text                       : $slide-text;
+$link                       : $accent;
+$link-dark                  : $accent-hover;
+$link-light                 : $accent-visited;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -44,36 +67,175 @@ $navicon-height             : 4px;
 $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
-/* Dark theme for the site */
+/* ==========================================================
+   Global CSS variables
+   ========================================================== */
+
 :root {
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
-    --global-border-color               : #{$background-light};
+    --global-border-color               : #{$slide-bg-mid};
+
     --global-code-background-color      : #222222;
-    /*--global-code-text-color            : #{$darker-gray};*/
     --global-code-text-color            : #f2f2f2;
-    --global-fig-caption-color          : #{$dark-gray};
+
+    --global-fig-caption-color          : #{$slide-muted-text};
+
     --global-link-color                 : #{$link};
     --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};    
+    --global-link-color-visited         : #{$link-light};
+
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};    
+    --global-masthead-link-color-hover  : #{$accent};
+
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$dark-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-text-color-light           : #{$slide-muted-text};
+
+    --global-thead-color                : #{$slide-bg-mid};
 }
 
-/* Awards section uses gold instead of teal */
+/* ==========================================================
+   Beamer-like gradient background
+   ========================================================== */
+
+html,
+body {
+  background: $background-gradient;
+  background-attachment: fixed;
+  color: $text;
+}
+
+/* Make main site containers transparent so the gradient is visible */
+.initial-content,
+.page,
+.page__inner-wrap,
+.archive,
+.sidebar,
+.masthead,
+.greedy-nav,
+#main {
+  background: transparent;
+}
+
+/* If your theme uses wrapper backgrounds, this helps remove them */
+.page__content,
+.archive__item,
+.sidebar__right,
+.sidebar__left {
+  background: transparent;
+}
+
+/* ==========================================================
+   Masthead / navigation
+   ========================================================== */
+
+.masthead {
+  background: linear-gradient(
+    180deg,
+    #{$slide-bg-top} 0%,
+    #{$slide-bg-mid} 100%
+  );
+  border-bottom: 1px solid $slide-bg-mid;
+}
+
+.masthead a,
+.greedy-nav a {
+  color: $text;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+/* ==========================================================
+   Typography
+   ========================================================== */
+
+body,
+p,
+li {
+  color: $text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $accent;
+}
+
+/* Links */
+a {
+  color: $link;
+
+  &:visited {
+    color: $link-light;
+  }
+
+  &:hover {
+    color: $link-dark;
+  }
+}
+
+/* ==========================================================
+   Tables
+   ========================================================== */
+
+table {
+  background: rgba(255, 255, 255, 0.55);
+}
+
+thead {
+  background: $slide-bg-mid;
+}
+
+/* ==========================================================
+   Code blocks
+   ========================================================== */
+
+code,
+pre {
+  background-color: #222222;
+  color: #f2f2f2;
+}
+
+/* ==========================================================
+   Buttons
+   ========================================================== */
+
+.btn {
+  background: $accent;
+  color: #ffffff;
+
+  &:hover {
+    background: $accent-hover;
+    color: #ffffff;
+  }
+
+  &:visited {
+    color: #ffffff;
+  }
+}
+
+/* ==========================================================
+   Awards section uses gold instead of purple
+   ========================================================== */
+
 .awards {
   a,
-  .btn,
   h3,
   .tag.is-gold {
     color: $accent-gold;
   }
 
   .btn {
+    color: $text;
     background: $accent-gold;
-    &:hover { background: $accent-gold-hover; }
+
+    &:hover {
+      background: $accent-gold-hover;
+    }
   }
 }
