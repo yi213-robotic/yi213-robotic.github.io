@@ -281,11 +281,14 @@ body {
   color: #111111 !important;
 }
 
-.masthead a:hover,
-.greedy-nav a:hover,
-.site-title:hover {
-  color: #111111 !important;
+.masthead a,
+.greedy-nav a,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li a,
+.greedy-nav .hidden-links li,
+.greedy-nav .hidden-links li a {
   background: transparent !important;
   background-color: transparent !important;
+  box-shadow: none !important;
 }
 
