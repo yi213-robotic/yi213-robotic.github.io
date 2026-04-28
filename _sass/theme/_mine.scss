@@ -251,17 +251,7 @@ body {
   background-attachment: fixed;
 }
 
-/* Make the main containers transparent so the gradient is visible */
-.initial-content,
-.page,
-.page__inner-wrap,
-.archive,
-.sidebar,
-#main {
-  background: transparent;
-}
-
-/* Beamer-like top header / navigation bar */
+/* ADD THE HEADER FIX HERE, AT THE VERY END */
 .masthead {
   background: linear-gradient(
     180deg,
@@ -271,25 +261,31 @@ body {
   border-bottom: 1px solid #CCCCEC !important;
 }
 
-/* Inner nav should be transparent, so we do not get two bars */
 .masthead__inner-wrap,
 .greedy-nav,
 .greedy-nav .visible-links,
-.greedy-nav .hidden-links {
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li a,
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links li,
+.greedy-nav .hidden-links li a,
+.site-title {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.masthead a,
+.greedy-nav a,
+.site-title {
+  color: #111111 !important;
+}
+
+.masthead a:hover,
+.greedy-nav a:hover,
+.site-title:hover {
+  color: #111111 !important;
   background: transparent !important;
   background-color: transparent !important;
 }
-
-/* Header text: keep normal dark color, no special color */
-.masthead a,
-.greedy-nav a {
-  color: #111111 !important;
-}
-
-/* Hover can be subtle, or remove this block if you want no color change */
-.masthead a:hover,
-.greedy-nav a:hover {
-  color: #111111 !important;
-}
-
 
