@@ -260,3 +260,36 @@ body {
 #main {
   background: transparent;
 }
+
+/* Beamer-like top header / navigation bar */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background: linear-gradient(
+    180deg,
+    #CCCCEC 0%,
+    #E5E5F5 100%
+  ) !important;
+}
+
+/* Remove white background inside nav */
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background: transparent !important;
+}
+
+/* Header links */
+.masthead a,
+.greedy-nav a {
+  color: #111111 !important;
+}
+
+.masthead a:hover,
+.greedy-nav a:hover {
+  color: #301C97 !important;
+}
+
+/* Optional: subtle Beamer-like bottom border */
+.masthead {
+  border-bottom: 1px solid #CCCCEC !important;
+}
