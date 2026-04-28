@@ -262,31 +262,34 @@ body {
 }
 
 /* Beamer-like top header / navigation bar */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav {
+.masthead {
   background: linear-gradient(
     180deg,
     #CCCCEC 0%,
     #E5E5F5 100%
   ) !important;
+  border-bottom: 1px solid #CCCCEC !important;
 }
 
-/* Remove white background inside nav */
+/* Inner nav should be transparent, so we do not get two bars */
+.masthead__inner-wrap,
+.greedy-nav,
 .greedy-nav .visible-links,
 .greedy-nav .hidden-links {
   background: transparent !important;
+  background-color: transparent !important;
 }
 
-/* Header links */
+/* Header text: keep normal dark color, no special color */
 .masthead a,
 .greedy-nav a {
   color: #111111 !important;
 }
 
+/* Hover can be subtle, or remove this block if you want no color change */
 .masthead a:hover,
 .greedy-nav a:hover {
-  color: #301C97 !important;
+  color: #111111 !important;
 }
 
 
