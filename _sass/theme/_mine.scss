@@ -239,3 +239,24 @@ pre {
     }
   }
 }
+html,
+body {
+  background: linear-gradient(
+    180deg,
+    #CCCCEC 0%,
+    #E5E5F5 18%,
+    #F7F7FF 45%,
+    #FFFFFF 100%
+  );
+  background-attachment: fixed;
+}
+
+/* Make the main containers transparent so the gradient is visible */
+.initial-content,
+.page,
+.page__inner-wrap,
+.archive,
+.sidebar,
+#main {
+  background: transparent;
+}
