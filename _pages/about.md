@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Yi's motion planning world!"
+title: "Welcome to Yi's efficient planning world!"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,11 +9,13 @@ redirect_from:
 
 ![Illustration of combining vision and language modalities](/images/funny.png){: .align-right width="400px"}
 
-Hello! I am Yi Wang, a PhD researcher in robotics and AI search at the University of New Hampshire (UNH). 
+Hello! I am Yi Wang, a PhD researcher in robotics and AI search at the University of New Hampshire (UNH). I successfully defended my PhD dissertation in April 2026. 
 
-I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. 
+<!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
-My research centers on **Efficient Planning Foundations with Guarantees for Trustworthy Robotic Autonomy**. It is organized around tighter bidirectional heuristic search and lazy optimal motion planning. I also focus on kinodynamic motion planning, heuristic search, graph-based optimization techniques, and optimal control. I am passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications.
+My research centers on **Efficient Planning Foundations with Guarantees for Trustworthy Robotic Autonomy**. I develop efficient planning algorithms for robot motion planning and AI search that significantly reduce unnecessary computation while preserving rigorous guarantees on optimality, completeness, robustness, and reliability. 
+
+To acheive this, my study is organized around tighter bidirectional heuristic search and lazy optimal motion planning. With broader focusing on kinodynamic motion planning, heuristic search, graph-based optimization, and optimal control. I am passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications.
 
 I am currently collaborating with Professor [Oren Salzman](https://orensalzman.com/) and [Dr. Eyal Weiss](https://sites.google.com/view/eyal-weiss) at [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search—a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces. I also contribute to the [Open motion planning library (OMPL)](https://ompl.kavrakilab.org/developers.html)(since Oct 2025).
 
