@@ -17,7 +17,7 @@ My research centers on **Efficient Planning Foundations with Guarantees for Trus
 
 To achieve this, my work is organized around tighter bidirectional heuristic search and lazy optimal motion planning, with broader interests in kinodynamic motion planning, heuristic search, graph-based optimization, and optimal control. I am passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications.
 
-I am currently collaborating with Professor [Oren Salzman](https://orensalzman.com/) and [Dr. Eyal Weiss](https://sites.google.com/view/eyal-weiss) at [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search—a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces. I also contribute to the [Open motion planning library (OMPL)](https://ompl.kavrakilab.org/developers.html)(since Oct 2025).
+I am currently collaborating with Professor [Oren Salzman](https://orensalzman.com/) and [Dr. Eyal Weiss](https://eyal-weiss.github.io/) at [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search—a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces. I also contribute to the [Open motion planning library (OMPL)](https://ompl.kavrakilab.org/developers.html)(since Oct 2025).
 
 
 Recent Posts
