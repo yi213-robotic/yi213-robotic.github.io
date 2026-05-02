@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration of combining vision and language modalities](/images/robot.png){: .align-right width="400px"}
+
 
 Hello! I am Yi Wang, a PhD researcher in robotics and AI search at the University of New Hampshire (UNH). I successfully defended my PhD dissertation in April 2026. 
+
+![Illustration of combining vision and language modalities](/images/robot.png){: .align-right width="400px"}
 
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
