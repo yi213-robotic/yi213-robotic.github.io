@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration of combining vision and language modalities](/images/wwwrobot.png){: .align-right width="340px"}
+![Illustration of combining vision and language modalities](/images/w4.png){: .align-right width="340px"}
 
 Hello! I am Yi Wang, a PhD researcher in robotics and AI search at the University of New Hampshire (UNH). I successfully defended my PhD dissertation in April 2026. 
 
