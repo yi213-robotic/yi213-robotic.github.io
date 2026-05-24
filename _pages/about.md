@@ -24,7 +24,7 @@ I am currently collaborating with Professor [Oren Salzman](https://orensalzman.c
 
 Recent Posts
 ======
-Bidirectional Tight Informed Trees (BTIT*), invited paper of ICCA 2026.
+Bidirectional Tight Informed Trees (BTIT*), Proceedings of ICCA 2026, 16-20 June, Almaty, Kazkhstan. (invited paper)
 
 Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [[pdf]](https://ieeexplore.ieee.org/document/11128259)
 
