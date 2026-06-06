@@ -11,8 +11,6 @@ redirect_from:
 
 Hello! I am Yi Wang, a PhD researcher in robotics and AI search at the University of New Hampshire (UNH). I successfully defended my PhD dissertation in April 2026. 
 
-
-
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
 My research centers on **Efficient Planning Foundations with Guarantees for Trustworthy Robotic Autonomy**. I develop efficient planning algorithms for robot motion planning and AI search that significantly reduce unnecessary computation while preserving rigorous guarantees on optimality, completeness, robustness, and reliability. 
