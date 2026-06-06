@@ -13,7 +13,7 @@ Hello! I am Yi Wang, a PhD researcher in robotics and AI search at the Universit
 
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
-My research centers on **Efficient Planning Foundations with Guarantees for Trustworthy Robotic Autonomy**. I develop efficient planning algorithms for robot motion planning and AI search that significantly reduce unnecessary computation while preserving rigorous guarantees on optimality, completeness, robustness, and reliability. 
+My research centers on **Efficient Planning Foundations with Theoretical Guarantees for Trustworthy Robotic Autonomy**. I develop efficient planning algorithms for robot motion planning and AI search that significantly reduce unnecessary computation while preserving rigorous guarantees on optimality, completeness, robustness, and reliability. 
 
 To achieve this, my work is organized around tighter bidirectional heuristic search and lazy optimal motion planning, with broader interests in kinodynamic motion planning, heuristic search, graph-based optimization, and optimal control. I am passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications.
 
