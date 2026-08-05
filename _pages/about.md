@@ -9,7 +9,7 @@ redirect_from:
 
 ![Illustration of combining vision and language modalities](/images/w4.png){: .align-right width="340px"}
 
-Hello! I am Yi Wang, a researcher in robotics and AI search. I received my Ph.D. degree from the University of New Hampshire (UNH) in May 2026. Throughout my Ph.D., I conducted my research independently while being fortunate and honored to collaborate closely with Professor [Oren Salzman](https://orensalzman.com/), whose guidance played an essential role in shaping my research and academic development.
+Hello! I am Yi Wang, a researcher in robotics and AI search. I received my Ph.D. from the University of New Hampshire (UNH) in May 2026. Throughout my Ph.D., I conducted my research independently while being fortunate and honored to collaborate closely with Professor [Oren Salzman](https://orensalzman.com/).
 
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
