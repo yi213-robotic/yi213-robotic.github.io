@@ -9,7 +9,7 @@ redirect_from:
 
 ![Illustration of combining vision and language modalities](/images/w4.png){: .align-right width="340px"}
 
-Hello! I am Yi Wang, a researcher in robotics and AI search. I received my Ph.D. from the University of New Hampshire (UNH) in May 2026. Throughout my Ph.D., I conducted my research independently while being fortunate and honored to collaborate closely with Professor [Oren Salzman](https://orensalzman.com/).
+Hello! I am Yi Wang, a researcher in robotics and AI search. I received my Ph.D. from the University of New Hampshire (UNH) in May 2026. Throughout my Ph.D., I conducted my research independently while being fortunate and honored to collaborate closely with Professor [Oren Salzman](https://orensalzman.com/) of the [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/).
 
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
@@ -17,7 +17,7 @@ My research centers on **Efficient Planning Foundations with Theoretical Guarant
 
 To achieve this, my work is organized around tighter bidirectional heuristic search and lazy optimal motion planning, with broader interests in kinodynamic motion planning, heuristic search, graph-based optimization, and optimal control. I am passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications.
 
-I am currently collaborating with Professor [Oren Salzman](https://orensalzman.com/) and [Dr. Eyal Weiss](https://eyal-weiss.github.io/) at [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search—a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces. I also contribute to the [Open motion planning library (OMPL)](https://ompl.kavrakilab.org/developers.html)(since Oct 2025).
+I am currently collaborating with Professor Oren Salzman and [Dr. Eyal Weiss](https://eyal-weiss.github.io/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search, a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces. I also contribute to the [Open motion planning library (OMPL)](https://ompl.kavrakilab.org/developers.html)(since Oct 2025).
 
 
 Recent Posts
