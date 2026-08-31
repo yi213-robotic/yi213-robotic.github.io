@@ -23,13 +23,15 @@ I am currently collaborating with Professor Oren Salzman and [Dr. Eyal Weiss](ht
 
 Recent Posts
 ======
+Tighter Bidirectional Heuristic Search and Lazy Optimal Sampling-Based Motion Planning. [Ph.D. Dissertation](https://scholars.unh.edu/cgi/viewcontent.cgi?article=4007&context=dissertation), May 2026, UNH.
+
 Bidirectional Tight Informed Trees (BTIT*), Proceedings of ICCA 2026, 16-20 June, Almaty, Kazkhstan. [(invited paper)](https://arxiv.org/pdf/2604.11587)
 
-Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [[pdf]](https://ieeexplore.ieee.org/document/11128259)
+Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [pdf](https://ieeexplore.ieee.org/document/11128259)
 
-Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.[[preprint]](https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/1923.pdf)
+Meet-in-the-middle with Early and Efficient Termination (MEET), Proceedings of [IJCAI 2025](https://2025.ijcai.org/), August 16-22, Montreal, Canada.[pdf](https://www.ijcai.org/proceedings/2025/0999.pdf)
 
-EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceedings of IEEE/ASME Transactions on Mechatronics ([TMECH](https://ieeexplore.ieee.org/abstract/document/11030654)) 2025. [[pdf]](https://ieeexplore.ieee.org/abstract/document/11030654)
+EMPC-Based Flight Control and Collision-Free Path Planning for A Quadrotor with Unbalanced Payload. Proceedings of IEEE/ASME Transactions on Mechatronics ([TMECH](https://ieeexplore.ieee.org/abstract/document/11030654)) 2025. [pdf](https://ieeexplore.ieee.org/abstract/document/11030654)
 
 Honors and Awards
 ======
