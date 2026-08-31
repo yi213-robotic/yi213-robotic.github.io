@@ -25,7 +25,7 @@ Recent Posts
 ======
 Tighter Bidirectional Heuristic Search and Lazy Optimal Sampling-Based Motion Planning. [Ph.D. Dissertation](https://scholars.unh.edu/cgi/viewcontent.cgi?article=4007&context=dissertation), May 2026, UNH.
 
-Bidirectional Tight Informed Trees (BTIT*), Proceedings of ICCA 2026, 16-20 June, Almaty, Kazkhstan. [(invited paper)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11618013)
+Bidirectional Tight Informed Trees (BTIT*), Proceedings of ICCA 2026, 16-20 June, Almaty, Kazkhstan. [Invited paper](https://ieeexplore.ieee.org/abstract/document/11618013)
 
 Bidirectional Lazy Informed Trees (BLIT*), Proceedings of [ICRA 2025](https://ras.papercept.net/conferences/scripts/myprogram.pl?ConfID=479), 19–23 May, Atlanta, USA. [pdf](https://ieeexplore.ieee.org/document/11128259)
 
