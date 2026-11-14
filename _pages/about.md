@@ -13,12 +13,17 @@ I am a researcher in robotics and AI search at University of California, Irvine,
 
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
-My research centers on **Efficient Planning Foundations with Theoretical Guarantees for Trustworthy Robotic Autonomy**. I develop efficient planning algorithms for robot motion planning and AI search that significantly reduce unnecessary computation while preserving rigorous guarantees on optimality, completeness, robustness, and reliability. 
+My research centers on **building algorithmic and theoretical Foundations for planning with Strong Theoretical Guarantees on optimality, completeness, robustness, and reliability for robotics and intelligent Systems**. 
+Rather than treating trade-offs between computational efficiency, solution quality,
+and theoretical guarantees as inevitable, my research asks **: which computations are truly unnecessary to preserve these rigorous theoretical guarantees?**.
 
-To achieve this, my work is organized around tighter bidirectional heuristic search and lazy optimal motion planning, with broader interests in kinodynamic motion planning, heuristic search, multi-agent pathfinding, anyangle pathfinding, task and motion planning, graph-based optimization, and optimal control. I am passionate about pushing the boundaries of autonomous systems by bridging theoretical insights with real-world applications. 
+To answer this question, my research bridges discrete heuristic search and continuous motion planning, focusing on fundamental algorithmic principles that can be applied across different planning paradigms, from single-robot planning to multi-robot and multi-agent systems. My current work spans bidirectional and incremental heuristic search, optimal sampling-based motion planning, any-angle pathfinding, and multi-agent pathfinding, with broader interests in kinodynamic motion planning, task and motion planning, graph-based optimization, and optimal control. I am particularly interested in extending these algorithmic foundations to high-dimensional, nonholonomic, and kinodynamic systems, as well as dynamic and unknown environments.
+
+Beyond developing individual planning algorithms, my long-term goal is to establish a unified algorithmic foundation for efficient, scalable, and provably reliable autonomous decision-making, bridging theoretical insights with real-world applications.
+
+I have also been a contributor to the [Open Motion Planning Library (OMPL)](https://ompl.kavrakilab.org/developers.html) since Oct 2025.
+
 <!--I am currently collaborating with Professor Oren Salzman and [Dr. Eyal Weiss](https://eyal-weiss.github.io/) to optimize the interplay between sampling-based motion planning and bidirectional heuristic search, a novel framework that significantly improves solution-finding efficiency in high-dimensional continuous state spaces. This line of work will continue at UC Irvine under the guidance of Professor Sven Koenig.-->
-
-I also contribute to the [Open motion planning library (OMPL)](https://ompl.kavrakilab.org/developers.html)(since Oct 2025).
 
 
 Recent Posts
