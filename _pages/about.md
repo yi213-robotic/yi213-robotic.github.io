@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-![Illustration of combining vision and language modalities](/images/w4.png){: .align-right width="340px"}
+![Illustration of combining vision and language modalities](/images/planning-robots.png){: .align-right width="340px"}
 
 I am a researcher in robotics and AI search at University of California, Irvine, working with Professor Sven Koenig in the [Intelligent Decision-Making (IDM)](https://idm-lab.org/) group. Before this, I received my Ph.D. from the University of New Hampshire (UNH) in May 2026. Throughout my Ph.D., I conducted my research independently while being fortunate and honored to collaborate closely with Professor [Oren Salzman](https://orensalzman.com/) of the [Technion-Israel Institute of Technology](https://www.technion.ac.il/en/).
 
