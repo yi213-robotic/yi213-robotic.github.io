@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Yi's efficient planning world!"
+title: "Efficient Planning with Rigorous Theoretical Guarantees"
 author_profile: true
 redirect_from: 
   - /about/
