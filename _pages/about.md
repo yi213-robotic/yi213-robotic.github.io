@@ -13,9 +13,9 @@ I am a researcher in robotics and AI search at University of California, Irvine,
 
 <!-- I am an extremely self-motivated researcher with a strong focus on developing state-of-the-art algorithms in robot motion planning. My work addresses open questions in motion planning, with a particular interest in bidirectional heuristic search. --> 
 
-My research centers on **building algorithmic and theoretical foundations for planning with strong theoretical guarantees on optimality, completeness, robustness, and reliability for robotics and intelligent Systems**. 
+My research centers on **building algorithmic and theoretical foundations for planning with strong theoretical guarantees on optimality, completeness, robustness, and reliability for robotics and intelligent systems**. 
 Rather than treating trade-offs between computational efficiency, solution quality,
-and theoretical guarantees as inevitable, my research asks **: which computations are truly unnecessary to preserve these rigorous theoretical guarantees?**.
+and theoretical guarantees as inevitable, my research asks: **Which computations are truly unnecessary to preserve these rigorous theoretical guarantees?**
 
 To answer this question, my research bridges discrete heuristic search and continuous motion planning, focusing on fundamental algorithmic principles that can be applied across different planning paradigms, from single-robot planning to multi-robot and multi-agent systems. My current work spans bidirectional and incremental heuristic search, optimal sampling-based motion planning, any-angle pathfinding, and multi-agent pathfinding, with broader interests in kinodynamic motion planning, task and motion planning, graph-based optimization, and optimal control. I am particularly into extending these algorithmic foundations to high-dimensional, nonholonomic, and kinodynamic systems, as well as dynamic and unknown environments.
 
