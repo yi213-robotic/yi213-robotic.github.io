@@ -1,23 +1,13 @@
 ---
 title: "EMPC-Based Flight Control and Collision-Free Path Planning for a Quadrotor With Unbalanced Payload"
 collection: publications
-category: Journals
+category: manuscripts
 permalink: /publication/EMPC
-excerpt: 'A new optimal sampling-based motion planner (state-of-the-art)'
+excerpt: 'Explicit model predictive flight control and collision-free path planning for a quadrotor with an unbalanced payload'
 date: 2025-06-19
 venue: 'IEEE/ASME Transactions on Mechatronics'
-paperurl: '[http://academicpages.github.io/files/paper3.pdf](https://ieeexplore.ieee.org/abstract/document/11030654)'
-citation: '@ARTICLE{11030654,
-  author={Zhang, Xiangyu and Wang, Yi and Mu, Bingxian and Yoon, Se Young},
-  journal={IEEE/ASME Transactions on Mechatronics}, 
-  title={EMPC-Based Flight Control and Collision-Free Path Planning for a Quadrotor With Unbalanced Payload}, 
-  year={2025},
-  volume={},
-  number={},
-  pages={1-10},
-  keywords={Quadrotors;Path planning;Uncertainty;Optimization;Attitude control;Real-time systems;Propellers;Three-dimensional displays;Trajectory;Tracking loops;3-D path planning;bidirectional guidance informed trees (BIGIT*);explicit model predictive control (EMPC);integral sliding mode control (ISMC);minimum snap trajectory generation;quadrotor},
-  doi={10.1109/TMECH.2025.3572522}}
-'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11030654'
+citation: 'Xiangyu Zhang, Yi Wang, Bingxian Mu, Se Young Yoon. "EMPC-Based Flight Control and Collision-Free Path Planning for a Quadrotor With Unbalanced Payload." IEEE/ASME Transactions on Mechatronics, 2025. doi:10.1109/TMECH.2025.3572522'
 ---
 
 In this article, a robust explicit model predictive control (EMPC) flight scheme is investigated for
