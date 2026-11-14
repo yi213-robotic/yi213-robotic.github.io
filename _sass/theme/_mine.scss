@@ -1,54 +1,24 @@
 @import "theme";
 
 /* ==========================================================
-   Beamer-slide style theme
-   Light lavender/blue gradient background + blue-purple accent
+   Slide-matched theme
+   Same palette as the Beamer talk template: white page,
+   purple titles with a thin gold line, UCI-blue links
    ========================================================== */
 
-/* Main slide-style colors */
-$slide-bg-top        : #CCCCEC;
-$slide-bg-mid        : #E5E5F5;
-$slide-bg-light      : #F7F7FF;
-$slide-bg-white      : #FFFFFF;
+/* Palette: the same colors as the slides (names of the slide colors in brackets) */
+$slide-indigo        : #1F2461;   /* deep indigo: site title, author name, section headings, buttons [themeblue] */
+$slide-purple        : #5E3AA0;   /* the page title                                  [themetitle]  */
+$slide-school        : #255799;   /* school color, now UCI Blue: links. At a new school, change this line [themeschool] */
+$slide-gold          : #F0A532;   /* the thin gold line under the page title         [themegold]   */
+$slide-ink           : #1E1E2E;   /* body text                                       [themeink]    */
+$slide-gray          : #686A80;   /* secondary text                                  [themegray]   */
+$slide-hair          : mix($slide-indigo, #fff, 14%);   /* hairlines and borders */
+$slide-tint          : mix($slide-indigo, #fff, 5%);    /* table heads, code, quiet panels */
 
-$slide-accent        : #301C97;
-$slide-text          : #111111;
-$slide-muted-text    : #555555;
-
-/* Background */
-$background          : $slide-bg-light;
-$background-light    : $slide-bg-mid;
-$background-lighter  : $slide-bg-white;
-
-/* Beamer-like gradient */
-$background-gradient: linear-gradient(
-  180deg,
-  #{$slide-bg-top} 0%,
-  #{$slide-bg-mid} 18%,
-  #{$slide-bg-light} 45%,
-  #{$slide-bg-white} 100%
-);
-
-/* Color Palette */
-$gray                       : $slide-bg-light;
-$dark-gray                  : mix(#000, $gray, 55%);
-$darker-gray                : mix(#000, $gray, 70%);
-$light-gray                 : mix(#fff, $gray, 50%);
-
-/* Accents */
-$accent                     : $slide-accent;
-$accent-hover               : darken($accent, 10%);
-$accent-visited             : mix(#333, $accent, 30%);
-
-$accent-gold                : #FFB300;
+/* Gold accent used by the awards section */
+$accent-gold                : $slide-gold;
 $accent-gold-hover          : darken($accent-gold, 8%);
-$accent-gold-visited        : mix(#5c4a00, $accent-gold, 35%);
-
-/* Text and links */
-$text                       : $slide-text;
-$link                       : $accent;
-$link-dark                  : $accent-hover;
-$link-light                 : $accent-visited;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -68,61 +38,40 @@ $sidebar-link-max-width     : 250px;
 $sidebar-screen-min-width   : 1024px;
 
 /* ==========================================================
-   Global CSS variables
+   Global CSS variables (the template's layout reads these)
    ========================================================== */
 
 :root {
-    --global-base-color                 : #{$background};
-    --global-bg-color                   : #{$background};
-    --global-border-color               : #{$slide-bg-mid};
+    --global-base-color                 : #{$slide-indigo};   /* buttons and active navigation items (white text on top) */
+    --global-bg-color                   : #fff;
+    --global-border-color               : #{$slide-hair};
 
-    --global-code-background-color      : #222222;
-    --global-code-text-color            : #f2f2f2;
+    --global-code-background-color      : #{$slide-tint};
+    --global-code-text-color            : #{$slide-ink};
 
-    --global-fig-caption-color          : #{$slide-muted-text};
+    --global-fig-caption-color          : #{$slide-gray};
 
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
+    --global-link-color                 : #{$slide-school};
+    --global-link-color-hover           : #{$slide-indigo};
+    --global-link-color-visited         : #{$slide-purple};
 
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$accent};
+    --global-masthead-link-color        : #{$slide-ink};
+    --global-masthead-link-color-hover  : #{$slide-purple};
 
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$slide-muted-text};
+    --global-text-color                 : #{$slide-ink};
+    --global-text-color-light           : #{$slide-gray};
 
-    --global-thead-color                : #{$slide-bg-mid};
+    --global-thead-color                : #{$slide-tint};
 }
 
 /* ==========================================================
-   Beamer-like gradient background
+   Page background: plain white, like the slides
    ========================================================== */
 
 html,
 body {
-  background: $background-gradient;
-  background-attachment: fixed;
-  color: $text;
-}
-
-/* Make main site containers transparent so the gradient is visible */
-.initial-content,
-.page,
-.page__inner-wrap,
-.archive,
-.sidebar,
-.masthead,
-.greedy-nav,
-#main {
-  background: transparent;
-}
-
-/* If your theme uses wrapper backgrounds, this helps remove them */
-.page__content,
-.archive__item,
-.sidebar__right,
-.sidebar__left {
-  background: transparent;
+  background: #fff;
+  color: $slide-ink;
 }
 
 /* ==========================================================
@@ -130,21 +79,13 @@ body {
    ========================================================== */
 
 .masthead {
-  background: linear-gradient(
-    180deg,
-    #{$slide-bg-top} 0%,
-    #{$slide-bg-mid} 100%
-  );
-  border-bottom: 1px solid $slide-bg-mid;
+  background: #fff;
+  border-bottom: 1px solid $slide-hair;
 }
 
-.masthead a,
-.greedy-nav a {
-  color: $text;
-
-  &:hover {
-    color: $accent;
-  }
+/* the site title, at the left of the navigation bar */
+.masthead .masthead__menu-item--lg a {
+  color: $slide-indigo;
 }
 
 /* ==========================================================
@@ -154,28 +95,41 @@ body {
 body,
 p,
 li {
-  color: $text;
+  color: $slide-ink;
 }
 
+/* Headings inside a page: deep indigo, like the sub-headings on the slides */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: $accent;
+  color: $slide-indigo;
+}
+
+/* The page title: purple with a thin gold line under it, like every slide title */
+.page__title {
+  color: $slide-purple;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid $slide-gold;
+}
+
+/* The name in the sidebar */
+.sidebar .author__name {
+  color: $slide-indigo;
 }
 
 /* Links */
 a {
-  color: $link;
+  color: $slide-school;
 
   &:visited {
-    color: $link-light;
+    color: $slide-purple;
   }
 
   &:hover {
-    color: $link-dark;
+    color: $slide-indigo;
   }
 }
 
@@ -183,44 +137,20 @@ a {
    Tables
    ========================================================== */
 
-table {
-  background: rgba(255, 255, 255, 0.55);
-}
-
 thead {
-  background: $slide-bg-mid;
+  background: $slide-tint;
 }
 
 /* ==========================================================
-   Code blocks
+   Footer: a hairline separates it from the page
    ========================================================== */
 
-code,
-pre {
-  background-color: #222222;
-  color: #f2f2f2;
+.page__footer {
+  border-top: 1px solid $slide-hair;
 }
 
 /* ==========================================================
-   Buttons
-   ========================================================== */
-
-.btn {
-  background: $accent;
-  color: #ffffff;
-
-  &:hover {
-    background: $accent-hover;
-    color: #ffffff;
-  }
-
-  &:visited {
-    color: #ffffff;
-  }
-}
-
-/* ==========================================================
-   Awards section uses gold instead of purple
+   Awards section uses gold instead of the link color
    ========================================================== */
 
 .awards {
@@ -231,7 +161,7 @@ pre {
   }
 
   .btn {
-    color: $text;
+    color: $slide-ink;
     background: $accent-gold;
 
     &:hover {
@@ -239,56 +169,3 @@ pre {
     }
   }
 }
-html,
-body {
-  background: linear-gradient(
-    180deg,
-    #CCCCEC 0%,
-    #E5E5F5 18%,
-    #F7F7FF 45%,
-    #FFFFFF 100%
-  );
-  background-attachment: fixed;
-}
-
-/* ADD THE HEADER FIX HERE, AT THE VERY END */
-.masthead {
-  background: linear-gradient(
-    180deg,
-    #CCCCEC 0%,
-    #E5E5F5 100%
-  ) !important;
-  border-bottom: 1px solid #CCCCEC !important;
-}
-
-.masthead__inner-wrap,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .visible-links li,
-.greedy-nav .visible-links li a,
-.greedy-nav .hidden-links,
-.greedy-nav .hidden-links li,
-.greedy-nav .hidden-links li a,
-.site-title {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
-.masthead a,
-.greedy-nav a,
-.site-title {
-  color: #111111 !important;
-}
-
-.masthead a,
-.greedy-nav a,
-.greedy-nav .visible-links li,
-.greedy-nav .visible-links li a,
-.greedy-nav .hidden-links li,
-.greedy-nav .hidden-links li a {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-
