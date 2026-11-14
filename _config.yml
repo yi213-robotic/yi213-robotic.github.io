@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "mine"
-title                    : "A Researcher in Robotics and AI"
+title                    : "An AI and Robotics Researcher"
 title_separator          : "-"
 name                     : &name "Yi Wang, PH.D."
 description              : &description "personal description"
