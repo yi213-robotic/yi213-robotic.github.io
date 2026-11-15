@@ -19,7 +19,7 @@ and theoretical guarantees as inevitable, my research asks: **Which computations
 
 To answer this question, my research is currently organized around two main threads: bidirectional heuristic search with tighter termination conditions and optimal sampling-based motion planning through selective lazy edge evaluation and heuristic search. My research bridges discrete heuristic search and continuous motion planning, focusing on developing fundamental algorithmic principles that can be applied across different planning paradigms, from single-robot systems to multi-robot systems.
 
-My current work spans bidirectional and incremental heuristic search, optimal sampling-based motion planning, any-angle pathfinding, and multi-agent pathfinding, with broader interests in kinodynamic motion planning, task and motion planning, graph-based optimization, and optimal control. I am particularly interested in extending these algorithmic foundations to high-dimensional nonholonomic, and kinodynamic systems, as well as dynamic and unknown environments.
+My current work spans bidirectional and incremental heuristic search, optimal sampling-based motion planning, any-angle pathfinding, and multi-agent pathfinding, with broader interests in kinodynamic motion planning, task and motion planning, graph-based optimization, and optimal control. I am particularly interested in extending these algorithmic foundations to high-dimensional nonholonomic and kinodynamic systems in dynamic and unknown environments.
 
 Beyond developing individual planning algorithms, my long-term goal is to establish a unified algorithmic framework for efficient, scalable, and provably reliable autonomous decision-making, bridging theoretical insights with real-world applications.
 
