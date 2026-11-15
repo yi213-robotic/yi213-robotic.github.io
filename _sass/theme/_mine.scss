@@ -169,3 +169,12 @@ thead {
     }
   }
 }
+
+/* ---------- A wider photo column (left sidebar) on wide screens ---------- */
+@media (min-width: 80em) {
+  body .sidebar { width: 270px; max-width: 270px; }   /* width of the column */
+  body .author__avatar img { max-width: 260px; }       /* width of the photo */
+  body .page,
+  body .archive { width: 79%; }                        /* the main column moves right to make room */
+  body .page { padding-right: 12.9%; }                 /* ... and keeps its text width */
+}
